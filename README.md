@@ -72,11 +72,11 @@ Microsoft Azure :
 
           https://azure.microsoft.com/en-us/services/machine-learning/#security
 
-AWS:
+AWS (SageMaker):
 
           https://aws.amazon.com/sagemaker/mlops/
 
-
+          https://us-east-2.console.aws.amazon.com/sagemaker/home?region=us-east-2#/landing
 
 
 
