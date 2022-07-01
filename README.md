@@ -46,13 +46,13 @@ The Data Engineering pipeline includes a sequence of operations on the available
 Model Engineering
 The core of the ML workflow is the phase of writing and executing machine learning algorithms to obtain an ML model. The Model Engineering pipeline includes a number of operations that lead to a final model:
 
-                    Model Training - The process of applying the machine learning algorithm on training data to train an ML model. It also includes feature engineering and the hyperparameter tuning for the model training activity.
+          Model Training - The process of applying the machine learning algorithm on training data to train an ML model. It also includes feature engineering and the hyperparameter tuning for the model training activity.
 
-                    Model Evaluation - Validating the trained model to ensure it meets original codified objectives before serving the ML model in production to the end-user.
+          Model Evaluation - Validating the trained model to ensure it meets original codified objectives before serving the ML model in production to the end-user.
 
-                    Model Testing - Performing the final “Model Acceptance Test” by using the hold backtest dataset.
+          Model Testing - Performing the final “Model Acceptance Test” by using the hold backtest dataset.
 
-                    Model Packaging - The process of exporting the final ML model into a specific format (e.g. PMML, PFA, or ONNX), which describes the model, in order to be consumed by the business application.  
+          Model Packaging - The process of exporting the final ML model into a specific format (e.g. PMML, PFA, or ONNX), which describes the model, in order to be consumed by the business application.                    
                     
 Model Deployment
 
