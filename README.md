@@ -66,6 +66,17 @@ Once we trained a machine learning model, we need to deploy it as part of a busi
 
 
 
+Microsoft Azure :
+
+          https://azure.microsoft.com/en-us/services/machine-learning/mlops/#features
+
+          https://azure.microsoft.com/en-us/services/machine-learning/#security
+
+AWS:
+
+          https://aws.amazon.com/sagemaker/mlops/
+
+
 
 
 
