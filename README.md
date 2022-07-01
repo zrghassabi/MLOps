@@ -41,6 +41,30 @@ The Data Engineering pipeline includes a sequence of operations on the available
            -Data Labeling - The operation of the Data Engineering pipeline, where each data point is assigned to a specific category.
 
            -Data Splitting - Splitting the data into training, validation, and test datasets to be used during the core machine learning stages to produce the ML model.
+           
+           
+Model Engineering
+The core of the ML workflow is the phase of writing and executing machine learning algorithms to obtain an ML model. The Model Engineering pipeline includes a number of operations that lead to a final model:
+
+                    Model Training - The process of applying the machine learning algorithm on training data to train an ML model. It also includes feature engineering and the hyperparameter tuning for the model training activity.
+
+                    Model Evaluation - Validating the trained model to ensure it meets original codified objectives before serving the ML model in production to the end-user.
+
+                    Model Testing - Performing the final “Model Acceptance Test” by using the hold backtest dataset.
+
+                    Model Packaging - The process of exporting the final ML model into a specific format (e.g. PMML, PFA, or ONNX), which describes the model, in order to be consumed by the business application.  
+                    
+Model Deployment
+
+Once we trained a machine learning model, we need to deploy it as part of a business application such as a mobile or desktop application. The ML models require various data points (feature vector) to produce predictions. The final stage of the ML workflow is the integration of the previously engineered ML model into existing software. This stage includes the following operations:
+
+          Model Serving - The process of addressing the ML model artifact in a production environment.
+
+          Model Performance Monitoring - The process of observing the ML model performance based on live and previously unseen data, such as prediction or recommendation. In particular, we are interested in ML-specific signals, such as prediction deviation from previous model performance. These signals might be used as triggers for model re-training.
+
+          Model Performance Logging - Every inference request results in the log-record.
+
+
 
 
 
